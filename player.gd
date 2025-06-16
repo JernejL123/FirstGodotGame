@@ -2,8 +2,8 @@ extends Area2D
 
 signal hit
 
-@export var speed = 400 # How fast the player will move (pixels/sec).
-var screen_size # Size of the game window.
+@export var speed = 400 
+var screen_size 
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
